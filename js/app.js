@@ -3,10 +3,6 @@ let jogosAlugados = []
 function alterarStatus(n) {
     let jogoClicado = document.getElementById(`game-${n}`);
 
-    if (jogoClicado.querySelector('div') == 'dashboard__item__img--rented' ) {
-        jogosAlugados.push(jogoClicado.querySelector('.dashboard__item__name').textContent)
-    }
-
     if (jogoClicado.querySelector('a').innerHTML == 'Alugar') {
         jogoClicado.querySelector('div').classList.add('dashboard__item__img--rented');    
         jogoClicado.querySelector('a').classList.add('dashboard__item__button--return');
