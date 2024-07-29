@@ -18,7 +18,7 @@ function alterarStatus(n) {
         //obs verificação, pois na atividade um dos jogos já vem alugado de acordo com a classe passada no html
         if (jogosAlugados.indexOf(nome) == -1 ) {
             jogosAlugados.push(nome);
-            qtd = 1;                    
+            qtd += 1;                    
         } else {
             if (confirm('Tem certeza que deseja devolver?')) {
                 jogoClicado.querySelector('div').classList.remove('dashboard__item__img--rented');    
