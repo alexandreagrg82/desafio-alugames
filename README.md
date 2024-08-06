@@ -2,5 +2,5 @@
 <h1>Descrição do projeto</h1>
 <p> Projeto para estudo do JavaScript.</p>
 <h1>Tópicos abordados</h1>
-<p>-Recuperar elementos htm.l</p>
+<p>-Recuperar elementos html.</p>
 <p>-Editar botões.</p>
